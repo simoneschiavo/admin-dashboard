@@ -249,3 +249,29 @@ h1 {
     fill: #F0B42A;
     cursor: pointer;
 }
+
+.announcement-container {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.announcement-card {
+    border-bottom: 1px solid #8B8B8B;
+    padding-bottom: 20px;
+}
+
+.announcement-card:last-child {
+    border-bottom: none;
+}
+
+.announcement-title {
+    font-weight: bold;
+}
+
+.announcement-description {
+    font-size: 14px;
+    color: #8B8B8B;
+}

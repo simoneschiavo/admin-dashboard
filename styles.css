@@ -203,8 +203,49 @@ h1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 40px;
+    padding: 20px 40px;
+}
+
+.dashboard-container h2 {
+    font-size: 20px;
+    grid-column: 1/-1;
 }
 
 .your-projects {
     grid-row: span 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-left: 10px solid #F0B42A;
+    display: grid;
+    height: 280px;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.project-description {
+    font-size: 14px;
+    color: #8B8B8B;
+}
+
+.project-actions {
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.project-actions > svg:hover {
+    fill: #F0B42A;
+    cursor: pointer;
 }

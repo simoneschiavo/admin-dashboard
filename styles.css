@@ -275,3 +275,36 @@ h1 {
     font-size: 14px;
     color: #8B8B8B;
 }
+
+.trending-container {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.trending-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.trending-card > .profile-pic {
+    grid-row: span 2;
+    height: 25px;
+    width: auto;
+}
+
+.user-handle {
+    font-weight: bold;
+    align-self: end;
+    font-size: 14px;
+}
+
+.trending-description {
+    font-size: 14px;
+    color: #8B8B8B;
+    align-self: start;
+}

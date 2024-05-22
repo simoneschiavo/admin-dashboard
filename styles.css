@@ -250,6 +250,12 @@ h1 {
     cursor: pointer;
 }
 
+.announcements {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: auto 1fr;
+}
+
 .announcement-container {
     background-color: #fff;
     padding: 10px 20px;
@@ -274,6 +280,12 @@ h1 {
 .announcement-description {
     font-size: 14px;
     color: #8B8B8B;
+}
+
+.trending {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: auto 1fr;
 }
 
 .trending-container {
